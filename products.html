@@ -1,0 +1,117 @@
+<HTML>
+
+    <HEAD>
+        <META http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>제품 조회</title>
+    
+    </HEAD>
+    
+    <BODY>
+    
+        <div align="left">
+            <h2>국내도서 조회</h2>
+            <FORM METHOD="POST" ACTION="domesticbook.php">
+    
+                국내도서번호 : <input type="text" name="number"><br>
+                국내도서이름 : <input type="text" name="name"><br>
+                판매가 : <input type="text" name="price"><br>
+                저자 : <input type="text" name="author"><br>
+                출판사 : <input type="text" name="publisher"><br>
+                출시일 : <input type="text" name="release"><br>
+                상태 : <input type="text" name="status"><br>
+                <BR>
+                <INPUT TYPE="submit" VALUE="조회">
+                <BR><BR>
+            </form>
+        </div>
+    
+        <div align="left">
+            <h2>외국도서 조회</h2>
+            <FORM METHOD="POST" ACTION="foreignbook.php">
+    
+                외국도서번호 : <input type="text" name="number"><br>
+                외국도서이름 : <input type="text" name="name"><br>
+                판매가 : <input type="text" name="price"><br>
+                저자 : <input type="text" name="author"><br>
+                출판사 : <input type="text" name="publisher"><br>
+                출시일 : <input type="text" name="release"><br>
+                상태 : <input type="text" name="status"><br>
+                <BR>
+                <INPUT TYPE="submit" VALUE="조회">
+                <BR><BR>
+            </form>
+        </div>
+    
+        <div align="left">
+            <h2>음반 조회</h2>
+            <FORM METHOD="POST" ACTION="record.php">
+    
+                음반번호 : <input type="text" name="number"><br>
+                앨범명 : <input type="text" name="name"><br>
+                판매가 : <input type="text" name="price"><br>
+                아티스트 : <input type="text" name="artist"><br>
+                제작자 : <input type="text" name="publisher"><br>
+                발매일 : <input type="text" name="release"><br>
+                레이블 : <input type="text" name="label"><br>
+                <BR>
+                <INPUT TYPE="submit" VALUE="조회">
+                <BR><BR>
+            </form>
+        </div>
+    
+        <div align="left">
+            <h2>문구 조회</h2>
+            <FORM METHOD="POST" ACTION="stationery.php">
+    
+                문구번호 : <input type="text" name="number"><br>
+                품명 및 모델명 : <input type="text" name="name"><br>
+                판매가 : <input type="text" name="price"><br>
+                상품군 : <input type="text" name="type"><br>
+                제조사 : <input type="text" name="maker"><br>
+                제조국 : <input type="text" name="manuCountry"><br>
+                수입여부 : <input type="text" name="import"><br>
+                <BR>
+                <INPUT TYPE="submit" VALUE="조회">
+                <BR><BR>
+            </form>
+        </div>
+    
+        <div align="left">
+            <h2>상품권 조회</h2>
+            <FORM METHOD="POST" ACTION="giftcard.php">
+    
+                상품권 번호 : <input type="text" name="number"><br>
+                품명 : <input type="text" name="name"><br>
+                판매가 : <input type="text" name="price"><br>
+                제조사 : <input type="text" name="maker"><br>
+                <BR>
+                <INPUT TYPE="submit" VALUE="조회">
+                <BR><BR>
+            </form>
+        </div>
+    
+        <div align="left">
+            <h2>이벤트 조회</h2>
+            <FORM METHOD="POST" ACTION="event.php">
+    
+                이벤트 번호 : <input type="text" name="number"><br>
+                이벤트 이름 : <input type="text" name="name"><br>
+                이벤트 내용 : <input type="text" name="content"><br>
+                이벤트 시작일 : <input type="text" name="beginning"><br>
+                이벤트 종료일 : <input type="text" name="closing"><br>
+                대상 상품 제품 번호 : <input type="text" name="target"><br>
+    
+                <BR>
+                <INPUT TYPE="submit" VALUE="조회">
+                <BR><BR>
+            </form>
+        </div>
+    
+        <BR><BR>
+        <button onclick='location.replace("admin.php")'>이전</button>
+    
+    </BODY>
+    
+</HTML>
